@@ -20,6 +20,7 @@ public class PersonDAOTests {
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	
+		System.out.println("tear up before class");
 		Database.getInstance().connect();
 	
 	}
